@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
+    <!-- google icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/intern.css">
+    <link rel="Shortcut Icon" type="image/x-icon" href="./assets/images/small_icon.ico">
+    <title>陳侑辰 實習成果</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid"><a class="navbar-brand logo-img" href="./index.html"><img src="./assets/images/logo.svg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <div class="hover-line"><a class="nav-link" href="#work">工作詳述</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="hover-line"><a class="nav-link" href="#progress">實習期間完成的進度</a></div>
+            </li>
+            <li class="nav-item">
+              <div class="hover-line"><a class="nav-link" href="#character">工作當中扮演的角色</a></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--navbar-->
+    <!--內容-->
+    <div class="title">
+      <h2>工作內容</h2>
+    </div>
+    <div class="col-12 content-area" id="work">
+      <h3 class="news-article-title"><span class="s-news-h2-line"></span>一、	工作詳述</h3>
+      <div class="news-article-content">
+        <p>
+          &emsp;目前來到公司已經約九個月左右，在寒假剛進公司時，第一個就是先進行新人訓練，練習自己的程式技巧與學習公司產品的Coding Style，而期間進行一些主管派發的客戶客製需求案子。到了暑假開始讓我慢慢接觸前端的邏輯撰寫。<br><br><strong>(1) 新人訓練</strong><br>在進公司後的第一件事就是新人訓練，一開始主管先讓我看了一些網頁相關的教學影片，包括前端、後端與資料庫的基本概念，看完影片之後，主管給了我一份專案，這份專案是公司標準版產品的範例，並且講解裡頭的程式讓我了解公司產品的大架構與學習公司的Coding Style。在每次的講解後主管會出一份作業，並且安排時間CodeReview，CodeReview時要讓我講解自己寫了哪些功能、這些功能如何運作，如此一來能更有效的驗收我的學習成果，這段訓練時間讓我對公司產品的了解與程式能力進步不少。<br><br><strong>(2)	客戶客製需求功能建置、修改</strong><br>經過新人訓練之後，主管開始派發任務給我，主要都是依照客戶的需求來進行建置或修改程式，通常公司會給一份需求單，裡面會詳述頁面的功能、樣式、所需的欄位等等，而有不清楚或是部會的地方都可以去問主管，主管都會非常有耐心地幫忙解答。<br><br>這段期間做了包括收據客製、新舊系統轉移資料、定期定額授權書功能、捐款匯入等等功能。轉舊資料時必須一個一個檢查新系統與舊系統資料庫的欄位，並且要去現有的網頁查看這些欄位有沒有和新系統是不一樣的，把自己放在客戶的角度，判斷是否需要將舊資料轉到新系統中並記錄下來。這些學習都讓我獲益良多並且取得很大的進步。<br><br>暑假期間，持續幫忙客戶的需求功能建置，因應一些產品上沒有的功能需求，以產品為基底建置新頁面、新資料表，要好好構思資料會用到哪些欄位，又或者新建的頁面功能需求，產品中是否有相似功能可以參考，後續也較好維護。
+        </p>
+      </div>
+    </div>
+    <div class="col-12 content-area" id="progress">
+      <h3 class="news-article-title"><span class="s-news-h2-line"></span>二、	實習期間完成的進度</h3>
+      <div class="news-article-content">
+        <p> <strong>羅東聖母醫院-玉山授權書定期定額轉帳請款功能</strong><br>&emsp;產品有一個功能是定期定額功能，從字面上來看就是提供客戶也就是基金會作善款的定期定額收取，有意願定期定額的捐款人會提供卡號讓基金會在每個周期扣款進行捐款，並設定扣款周期，每期的時間從月繳、季繳、年繳等等，舉例來說，今天我選擇月繳1500元並選擇5-第一批次扣款，系統就會在每個月的5號到指定的卡號扣款1500元。<br><br>&emsp;取得定期定額善款的方法，先至系統中請款作業的頁面，匯出本期的請款檔，這份請款檔的格式會由銀行提供，這個檔案會包含這個月要收取的金額等資料，並將這份檔案上傳到銀行的後台，銀行會回覆一份銷帳檔，我們再將銷帳檔匯入系統中，就會發現這份銷帳檔會記錄哪些是扣款成功哪些是失敗，並把成功扣款卡號的扣款日期移到下期。<br><br>&emsp;不同銀行的銷帳/請款檔的格式都不同，通常標準版使用的是聯合信用卡公司，而每家銀行的銷帳/請款檔的格式都不一樣，這次的案子客戶因為有指定要使用玉山銀行的銷帳/請款檔，所以要照著另外特定的格式來撰寫這個案子。<br><br>下圖為定期定額轉帳請款的頁面:
+          <div class="img-fluid p-img"><img src="./assets/images/chen_01.png" alt="" width="100%"></div>
+        </p><br>
+        <p>按下匯出請款檔就會得到下方記事本檔案，並將這份檔案交給銀行後台
+          <div class="img-fluid p-img"><img src="./assets/images/chen_02.png" alt="" width="100%"></div>
+        </p><br>
+        <p>依照玉山授權書的檔名格式
+          <div class="img-fluid p-img"><img src="./assets/images/chen_03.png" alt="" width="100%"></div>
+        </p><br>
+        <p>請款檔內容一樣照著玉山銀行的格式撰寫，如下圖:
+          <div class="row"> 
+            <div class="col-6"> 
+              <div class="img-fluid p-img"><img src="./assets/images/chen_04.png" alt="" width="100%"></div>
+            </div>
+            <div class="col-6"> 
+              <div class="img-fluid p-img"><img src="./assets/images/chen_05.png" alt="" width="100%"></div>
+            </div>
+          </div>
+        </p>
+        <p>因為欄位非常多且複雜，在寫完之後一定要再三測試，很容易漏了檢查哪些欄位，所以測試一定要非常小心。</p><br>
+        <p><strong>Header檔頭資料</strong>
+          <div class="col-6"> 
+            <div class="img-fluid p-img"><img src="./assets/images/chen_06.png" alt="" width="200%"></div>
+          </div>
+        </p><br>
+        <p><strong>Data每行資料</strong>
+          <div class="col-6"> 
+            <div class="img-fluid p-img"><img src="./assets/images/chen_07.png" alt="" width="200%"></div>
+          </div>
+        </p><br>
+        <p><strong>Trailer檔尾資料</strong>
+          <div class="col-6"> 
+            <div class="img-fluid p-img"><img src="./assets/images/chen_08.png" alt="" width="200%"></div>
+          </div>
+        </p><br>
+        <p>&emsp;上傳到玉山銀行後，過一兩個工作天銀行會回覆一份銷帳檔，格式和請款檔大同小異，下方紅字部分為銷帳檔和請款檔的差異，最主要差在回覆碼，當回覆碼是00的時候代表成功，其餘皆為失敗。
+          <div class="col-6"> 
+            <div class="img-fluid p-img"><img src="./assets/images/chen_09.png" alt="" width="200%"></div>
+          </div>
+        </p><br>
+        <p>&emsp;在匯入銀行提供的銷帳檔後，成功的銷帳會顯示在請款成功頁面，再按下轉收據按鈕就會將此捐款記錄存入資料庫，大功告成！
+          <div class="col-6"> 
+            <div class="img-fluid p-img"><img src="./assets/images/chen_10.png" alt="" width="200%"></div>
+          </div>
+        </p><br>
+        <p>&emsp;如果遇到轉帳失敗的情況(可能是此帳戶餘額不足等等原因)，系統也會整理到以下頁面，讓客戶能透過這個名單去了解實際狀況。
+          <div class="col-6"> 
+            <div class="img-fluid p-img"><img src="./assets/images/chen_11.png" alt="" width="200%"></div>
+          </div>
+        </p><br><br>
+        <p><strong>私立聖家啟智中心-新舊系統轉移資料</strong><br>&emsp;有許多客戶很久以前就有跟公司合作，而以前的系統可能會因為一些原因需要改成新系統以方便運作，然而新系統與舊系統之間除了功能與頁面有差異之外，資料庫的欄位也有些許不同，這時候我們就要幫客戶進行新舊系統間資料的轉移。<br>&emsp;通常在轉移資料前一定要先對照一下新系統與舊系統的欄位，將兩個DB拿出來對照，開一個excel來記錄相對應的欄位。
+          <div class="img-fluid p-img"><img src="./assets/images/chen_12.png" alt="" width="100%"></div>
+        </p><br>
+        <p>&emsp;有存放相同值的欄位就可以直接放，若有疑慮的欄位或是有些存放自己不了解的資料不確定要不要轉移的話，就先到舊系統的網頁查看這個欄位的使用方法與意義，查看過後還是不確定的話就可以拿去和主管討論，根據主管的經驗很多欄位的問題都輕鬆解決。
+          <div class="img-fluid p-img"><img src="./assets/images/chen_13.png" alt="" width="100%"></div>
+        </p><br>
+        <p>下圖為舊系統：
+          <div class="img-fluid p-img"><img src="./assets/images/chen_14.png" alt="" width="100%"></div>
+        </p><br>
+        <p>整理完之後，根據整理的對應欄位，首先要確認新舊系統的選項資料，將對應的選項值存入dictionary中
+          <div class="row"> 
+            <div class="col-6"> 
+              <div class="img-fluid p-img"><img src="./assets/images/chen_15.png" alt="" width="100%"></div>
+            </div>
+            <div class="col-6"> 
+              <div class="img-fluid p-img"><img src="./assets/images/chen_16.png" alt="" width="100%"></div>
+            </div>
+          </div>
+        </p><br>
+        <p>接著設定轉資料按鈕的事件，轉資料時通常不會一次轉完，會利用SQL語法分批轉，因為資料量如果太大，可能會導致程式崩潰，會很麻煩。
+          <div class="img-fluid p-img"><img src="./assets/images/chen_17.png" alt="" width="100%"></div>
+        </p><br>
+        <p>並將指定資料存入List中
+          <div class="img-fluid p-img"><img src="./assets/images/chen_18.png" alt="" width="100%"></div>
+        </p><br>
+        <p>&emsp;最後將程式執行起來，並注意連接的資料庫Data Source，如果僅要測試的話要記得設定為localhost，不然可能會直接影響到伺服器上的網站資料，如果程式有錯的話會造成客戶的麻煩。
+          <div class="img-fluid p-img"><img src="./assets/images/chen_20.png" alt="" width="100%"></div>
+        </p><br>
+        <p><strong>花蓮縣老人暨家庭關懷協會-居服個案繳費管理功能</strong><br>&emsp;客戶要在捐款系統中新增個案繳費管理，參考捐款人主檔的精神建立一連串的個案-繳費關係。依照客戶需求有個案主檔、繳費功能、繳費收據之列印與匯入繳費資料功能。
+		  <div class="img-fluid p-img"><img src="./assets/images/chen_21.png" alt="" width="20%"></div>
+		  <div class="img-fluid p-img"><img src="./assets/images/chen_22.png" alt="" width="70%"></div>
+	  </div>
+    </div>
+    <div class="col-12 content-area" id="character">
+      <h3 class="news-article-title"><span class="s-news-h2-line"></span>三、	工作當中扮演的角色</h3>
+      <div class="news-article-content">
+        <p>&emsp;公司為客戶提供非常多服務包括捐款系統、個案管理系統、義賣網站、志工管理等等，並整合運用，讓客戶能更方便的管理各方面需求。而我們部門就包含了捐款系統與個案管理系統等等，其中捐款系統整合了捐款人的捐款、捐物資料，並提供金流、收據等服務，讓客戶更有效的管理捐款方面事務。
+		<br><br>&emsp;身為一名實習生，目前的工作主要是進行捐款系統後端程式撰寫，依照客戶的客製需求進行建置，主管會統整客戶的需求並評估我目前還需要學習產品的哪些功能，給我最適合我的任務，在工作中持續學習。在做完工作後進行測試，主管常教導我說以客戶的角度和跳脫原本的運作邏輯來測試程式，可以幫自己的程式找到許多問題，省去很多麻煩。測試完並交給主管再測試，若沒有錯的話就算完成一份工作。</p>
+      </div>
+    </div>
+    <a id="gotop" href="#banner"><span class="material-icons">expand_less</span></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"> </script>
+    <script src="./intern.js"></script>
+    <script type="text/javascript">var s = skrollr.init();</script>
+  </body>
+</html>
